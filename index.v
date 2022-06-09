@@ -1,16 +1,16 @@
 import os
-import gui
-// import gg
+import graphics
+import gg
 
-// Program dependent constants
+//pub type FNUpdate = fn (data voidptr)
+
+// Program constants
 const (
 	user_dir = os.home_dir()
 )
 
 fn main() { 
-	gui.temp(user_dir)
+	
 }
 
-fn win_exit() {
-	exit(0)
-}
+
