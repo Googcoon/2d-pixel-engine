@@ -1,6 +1,6 @@
 import os
-import graphics
 import gg
+
 
 //pub type FNUpdate = fn (data voidptr)
 
@@ -8,6 +8,8 @@ import gg
 const (
 	user_dir = os.home_dir()
 )
+
+//TODO: There will be 3 options for what type of 2d camera view style should be used, Top-Down, Side-View, and Isometric
 
 fn main() { 
 	
