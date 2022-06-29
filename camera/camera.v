@@ -11,7 +11,11 @@ struct Camera {
 }
 
 
-fn NewCamera() {
+fn NewCamera(CameraType camType, ) {
+	m4.Vec4 cameraPos = m4.vec3(0.0f, 0.0f, 3.0f);
+	m4.Vec4 cameraTarget = m4.vec3(0.0f, 0.0f, 0.0f);
+	m4.Vec4 cameraDirection = normalize(m4.sub(cameraPos, cameraTarget));
+//	glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);  
 	m4.ortho()
 }
 
