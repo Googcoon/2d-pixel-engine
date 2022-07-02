@@ -1,4 +1,4 @@
-module types
+module vixel
 
 pub struct Object {
 
